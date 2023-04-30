@@ -6,8 +6,8 @@ const moment = require('moment');
 const BASE_URL = 'http://localhost:3000';
 const SOCKET_PATH = '/ws/'
 
-const THIRDFI_API_KEY = '370e2532-c2f0-4d06-aa7d-cfd076cd199b';
-const THIRDFI_SEC_KEY = '72cd253cab42a7f716e7714c325e13cda65a043da7b3f80909470cedc20252f5';
+const THIRDFI_API_KEY = 'YOUR_THIRDFI_API_KEY';
+const THIRDFI_SEC_KEY = 'YOUR_THIRDFI_SEC_KEY';
 
 const timeStamp = moment().unix();
 const baseString = `${BASE_URL}/ws/&emit=price_feed&timestamp=${timeStamp}`;
